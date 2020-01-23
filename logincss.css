@@ -1,6 +1,12 @@
 body{
     background-image: url(../lnco\ login/images/BG.jpg);
 }
+#workimg{
+    position: absolute;
+    margin:2% 30% 15% 15%;
+    height:450px;
+    width:400px;
+}
 #container{
     height: 450px;
     width:450px;
@@ -9,6 +15,31 @@ body{
     margin-left: 60%;
     border-radius: 5%;
 }
+#logo{
+    position: relative;
+    margin-left: 5%;
+    height: 150px;
+    width: 250px;
+}
 .loginclass{
+    position: absolute;
+    margin : 12% 65% 35% 20%;
     align-items: center;
+}
+#frgtpswrd{
+    margin-left:35% ;
+}
+input{
+    font-size: large;
+}
+.btncls{
+    font-size: 15px;
+}
+#logintxt{
+    display: block;
+    position: absolute;
+    margin:6% 15% 55% 20% ;
+}
+.container.span.text{
+    font-family: cursive;
 }
