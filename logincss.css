@@ -1,0 +1,14 @@
+body{
+    background-image: url(../lnco\ login/images/BG.jpg);
+}
+#container{
+    height: 450px;
+    width:450px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 60%;
+    border-radius: 5%;
+}
+.loginclass{
+    align-items: center;
+}
