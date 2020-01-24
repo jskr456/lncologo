@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="logincss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <body>
-       <h1>Dope</h1>
+       <div>
+           <img id="connectlogo" src="./images/Connect Logo White.png">
+       </div>
        <div class="leftimg" id="leftimg">
            <img id="workimg" src="images/Work Environment.png">
        </div>
        <div id="container">
            <img id="logo" src="images/LnCo Logo.png" alt="logo">
-           <span class="container span text" id="logintxt">Please login to get connected</span>
+           <span class="container span text" id="logintxt">Please login to your account to get connected</span>
             <div class="loginclass" id=login>   
         <div class="loginclass" id=login>   
             <div class="loginclass" id=login>   
-            <label for="username" id="username">
-               username<input type="text">
-           </label>
+            <label class="lblcls" for="username" id="username">
+               username</label><input type="text" class="inputcls" id="userinput">
+           
            <br>
-           <label for="password" id="password">
-               password<input type="password">
-           </label>
-           <span class="container span text" id="frgtpswrd">forgot password</span>
+           <label class="lblcls" for="password" id="password">
+               password</label><input class="inputcls" id="swrdinpt" type="password">
+           
+           <a href="#"><span class="container span text" id="frgtpswrd">forgot password</span></a>
            <br>
-           <label for="rememberme" id="remember">
-             <input type="checkbox" value="">remember Me
-           </label>
-           <button class="btncls" type="submit" id="login">login</button>
-           <button class="btncls" id="signup">signup</button>   
+            <input type="checkbox" id="remme" value="">
+            <label for="rememberme" id="remember">remember Me
+            </label>
+           <div>
+           <button class="btn btn-primary" type="submit" id="login">LOGIN</button>
+           <button class="btn btn-primary" id="signup">SIGN UP</button>   
+            </div>
         </div>
        </div>
     </body>

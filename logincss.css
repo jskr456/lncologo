@@ -1,45 +1,108 @@
 body{
     background-image: url(../lnco\ login/images/BG.jpg);
 }
-#workimg{
-    position: absolute;
-    margin:2% 30% 15% 15%;
-    height:450px;
-    width:400px;
+#connectlogo{
+        width: 150px;
+        height: 40px;
+        position: relative;
+        left: 7%;
+        margin-top: 5%;
+}
+#workimg {
+	position: absolute;
+	margin: 2% 30% 15% 5%;
+	height: 450px;
+	width: 500px;
 }
 #container{
     height: 450px;
     width:450px;
     background-color: aliceblue;
     position: absolute;
-    margin-left: 60%;
+    margin-left: 57%;
     border-radius: 5%;
 }
 #logo{
     position: relative;
-    margin-left: 5%;
-    height: 150px;
+    margin-left: 15%;
+    height: 135px;
     width: 250px;
 }
 .loginclass{
     position: absolute;
-    margin : 12% 65% 35% 20%;
+    margin : 8% 65% 35% 15%;
     align-items: center;
 }
-#frgtpswrd{
-    margin-left:35% ;
+.inputcls {
+	font-size: 15px;
+	border-radius: 15px;
+	border-color: rgb(4, 171, 236);
+	padding: 20px 75px 10px 35px;
+	margin: 2%;
+}
+#username {
+	position: absolute;
+	top: 2%;
+	left: 15%;
+    color: rgb(4, 171, 236);
+    font-size:15px;
+}
+#password{
+    position: absolute;
+    top:32%;
+    left:15%;
+    color: rgb(4, 171, 236);
+    font-size:15px;
+}
+#frgtpswrd {
+	/* margin: 35% 0% 35% 60%; */
+	position: relative;
+	left: 69%;
 }
 input{
-    font-size: large;
+    font-size: medium;
 }
-.btncls{
+#remme{
+    position: relative;
+    left: 18px;
+    top: 2px; 
+}
+#remember{
+   color: rgb(4, 171, 236);
+   position: relative;
+   left: 15px;
+}
+.btn.btn-primary{
+    color: #000;
+    position: relative;
+    left: 15px;
+    margin-top: 3%;
+    margin: 1%;
     font-size: 15px;
+    background-color:rgb(248, 248, 248);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(3, 93, 129);
+    padding:5px 20px 5px 20px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button.button-primary:hover {
+    background-color: rgb(1, 173, 241);
 }
 #logintxt{
     display: block;
     position: absolute;
-    margin:6% 15% 55% 20% ;
+    margin:3% 15% 55% 15% ;
+    font-size: 10px;
+    font-weight: bolder;
 }
 .container.span.text{
     font-family: cursive;
+    color: rgb(4, 171, 236);
+    font-size: 10px;
+    font-weight: bolder;
+}
+input, select, textarea{
+    color: rgb(3, 93, 129);
 }
