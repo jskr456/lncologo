@@ -1,1 +1,1 @@
-this is to check git svn
+this is to check git
