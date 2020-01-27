@@ -1,101 +1,19 @@
-#container{
-    height: 300px;
-    width:240px;
-    background-color: aliceblue;
+/* @media screen and (max-width:400px){ }*/
+    #bg{
+        display: none;
+    }
+    #workimg{
+        display: none;
+    }
+    #connectlogo{
+        display: none;
+    }
+    #container{
+        height: 850px;
+    width: 375px;
+    background-color: rgb(86, 176, 255);
     position: relative;
-    margin-left: 57%;
-    margin-top: 5%;
+    margin-left: 0%;
+    margin-top: 0%;
     border-radius: 5%;
-}
-#logo{
-    position: relative;
-    margin-left: 15%;
-    height: 135px;
-    width: 250px;
-}
-.loginclass{
-    position: absolute;
-    margin : 8% 65% 35% 15%;
-    align-items: center;
-}
-.inputcls {
-	font-size: 15px;
-	border-radius: 15px;
-	border-color: rgb(4, 171, 236);
-	padding: 20px 75px 10px 35px;
-	margin: 2%;
-}
-#username {
-	position: absolute;
-	top: 2%;
-	left: 15%;
-    color: rgb(4, 171, 236);
-    font-size:15px;
-}
-#password{
-    position: absolute;
-    top:32%;
-    left:15%;
-    color: rgb(4, 171, 236);
-    font-size:15px;
-}
-#errormsg{
-    margin-top: 0;
-    margin-bottom: 1rem;
-    position: absolute;
-    top: 232px;
-    left: 20px;
-}
-#frgtpswrd {
-	/* margin: 35% 0% 35% 60%; */
-	position: relative;
-	left: 69%;
-}
-input{
-    font-size: medium;
-}
-#remme{
-    position: relative;
-    left: 18px;
-    top: 2px; 
-}
-#remember{
-   color: rgb(4, 171, 236);
-   position: relative;
-   left: 15px;
-}
-.btn.btn-primary{
-    color: #000;
-    position: relative;
-    left: 15px;
-    margin-top: 3%;
-    margin: 1%;
-    font-size: 15px;
-    background-color:rgb(248, 248, 248);
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: rgb(3, 93, 129);
-    padding:5px 20px 5px 20px ;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.btn.btn-primary:hover {
-    background-color:#2483C5;
-    color: #fcfcfc;
-}
-#logintxt{
-    display: block;
-    position: absolute;
-    margin:3% 15% 55% 15% ;
-    font-size: 10px;
-    font-weight: bolder;
-}
-.container.span.text{
-    font-family: cursive;
-    color: rgb(4, 171, 236);
-    font-size: 10px;
-    font-weight: bolder;
-}
-input, select, textarea{
-    color: rgb(3, 93, 129);
+    }
