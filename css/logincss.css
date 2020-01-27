@@ -5,41 +5,10 @@ body {
     padding: 0;
     -webkit-overflow-scrolling: touch;
 }
-
-body {
-    font-family: regular_sourcesanspro !important;
-    height: auto;
-    position: relative;
-    font-size: 14px;
-}
 #bg{
     position: fixed;
     width: 100%;
     height: 100%;
-}
-@media screen and (max-width:400px){
-    body{
-        height: 812;
-        width: 375;
-    }
-    #bg{
-        display: none;
-    }
-    #workimg{
-        display: none;
-    }
-    #connectlogo{
-        display: none;
-    }
-    #container{
-        height: 812px;
-        width:375px;
-        background-color: rgb(0, 64, 121);
-        position: relative;
-        margin-left: 0%;
-        margin-top: 0%;
-        border-radius: 5%;
-    }
 }
 #pagecont{
     position: relative;
@@ -101,7 +70,7 @@ body {
     font-size:15px;
 }
 #errormsg{
-    margin-top: 0;
+  	margin-top: 0;
     margin-bottom: 1rem;
     position: absolute;
     top: 232px;
@@ -138,7 +107,6 @@ input{
     border-radius: 10px;
     border-color: rgb(3, 93, 129);
     padding:5px 20px 5px 20px ;
-    font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .btn.btn-primary:hover {
@@ -161,11 +129,16 @@ input{
 input, select, textarea{
     color: rgb(3, 93, 129);
 }
-@media screen and (max-width: 1377px) and (max-height: 768px){
+
+@media only screen and (max-width:1377px){
     body{
-            overflow: visible;
-  }
+        
+    }
+    #pagecont{
+        top: 2px;
+    }
 }
+
 /* @media  screen and (max-width: 1366px){
     body{
     overflow: hidden;
@@ -178,6 +151,5 @@ input, select, textarea{
 	margin: 5% 30% 15% 5%;
 	height: 850px;
 	width: 800px;
+    } */
     }
-    }
- */
