@@ -76,6 +76,13 @@ body {
     color: rgb(4, 171, 236);
     font-size:15px;
 }
+#errormsg{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 232px;
+    left: 20px;
+}
 #frgtpswrd {
 	/* margin: 35% 0% 35% 60%; */
 	position: relative;
@@ -128,11 +135,11 @@ button.button-primary:hover {
 input, select, textarea{
     color: rgb(3, 93, 129);
 }
-@media  screen and (max-width: 1366px){
+/* @media  screen and (max-width: 1366px){
     body{
     overflow: hidden;
     }
-    }
+    } */
 
 @media  screen and (max-width: 1366px){
     .lftimg{
