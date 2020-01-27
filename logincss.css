@@ -114,10 +114,12 @@ input{
     border-radius: 10px;
     border-color: rgb(3, 93, 129);
     padding:5px 20px 5px 20px ;
+    font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-button.button-primary:hover {
-    background-color: rgb(1, 173, 241);
+.btn.btn-primary:hover {
+    background-color:#2483C5;
+    color: #fcfcfc;
 }
 #logintxt{
     display: block;
@@ -135,13 +137,17 @@ button.button-primary:hover {
 input, select, textarea{
     color: rgb(3, 93, 129);
 }
+@media screen and (max-width: 1377px){
+    body{
+  }
+}
 /* @media  screen and (max-width: 1366px){
     body{
     overflow: hidden;
     }
     } */
 
-@media  screen and (max-width: 1366px){
+/* @media  screen and (max-width: 1366px){
     .lftimg{
     position: absolute;
 	margin: 5% 30% 15% 5%;
@@ -149,3 +155,4 @@ input, select, textarea{
 	width: 800px;
     }
     }
+ */
