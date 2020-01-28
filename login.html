@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' media='screen and (max-width: 400px)' href='mobilecss.css'> 
+    <link rel='stylesheet' media='screen and (max-width: 767px)' href='mobilecss.css'> 
     <link rel="stylesheet" href="logincss.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <style>
@@ -26,6 +27,9 @@
        <div class="leftimg" id="leftimg">
            <img id="workimg" src="images/Work Environment.png">
        </div>
+       <div>
+            <img id=mobilelogo src="images/LnCo Logo.png" alt="logo">
+       </div>
        <div id="container">
            <img id="logo" src="images/LnCo Logo.png" alt="logo">
            <span class="container span text" id="logintxt">Please login to your account to get connected</span>
@@ -45,7 +49,7 @@
             <label for="rememberme" id="remember">remember Me
             </label>
            <div>
-           <button class="btn btn-primary" type="submit" id="login">Log In</button>
+           <button class="btn btn-primary" type="submit" id="login-btn">Log In</button>
            <!-- <button class="btn btn-primary" id="signup">SIGN UP</button>    -->
            <p id="errormsg" align="left" style="color:red">The username or password you entered is incorrect. Try again..</p>
         </div>
