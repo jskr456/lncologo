@@ -43,7 +43,7 @@ body {
     height: 135px;
     width: 250px;
 }
-#mobilelogo{
+img#mobilelogo{
 	display: none;
 }
 .loginclass{
@@ -134,14 +134,14 @@ input, select, textarea{
     color: rgb(3, 93, 129);
 }
 
-@media only screen and (max-width:1377px){
+/* @media only screen and (max-width:1377px){
     body{
         
     }
     #pagecont{
         top: 2px;
     }
-}
+} */
 
 /* @media  screen and (max-width: 1366px){
     body{

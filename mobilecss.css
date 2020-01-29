@@ -8,21 +8,28 @@
   #connectlogo{
       display: none;
   }
-  #logo{
-      display: none;
+  #desklogodiv{
+      background-color: white;
   }
-  #mobilelogo{
-      display: block;
-  }
+  img#logo{
+    margin-left: 22%;
+    background-color: white;
+    }
+  
+  /* #mobilelogo{
+      height: 150px;
+      margin-left: 5%;
+  } */
   #pagecont{
   position: relative;
-  top: 25px !important;
+  top : -2%;
   margin: 0px;
   }
   #container  {
       height: 100% !important;
       width: 100% !important;
       margin-left: 0% !important;
+      background-color: white;
   }
   #login-btn{
       margin-left: 96px !important;
