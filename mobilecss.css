@@ -1,6 +1,6 @@
 /* @media screen and (max-width:400px){ }*/
-#bg{
-    display:none ;
+/*
+ #bg{
   }
   #workimg{
       display: none;
@@ -9,17 +9,19 @@
       display: none;
   }
   #desklogodiv{
-      background-color: white;
+     display: none;
   }
-  img#logo{
+   img#logo{
     margin-left: 22%;
     background-color: white;
-    }
-  
-  /* #mobilelogo{
+    } 
+#mobilelogodiv{
+      height: 150px;
+      width: 100px;
+      background-image: url(./images/mobile\ logo.png);
       height: 150px;
       margin-left: 5%;
-  } */
+  }
   #pagecont{
   position: relative;
   top : -2%;
@@ -35,7 +37,7 @@
       margin-left: 96px !important;
   }
   #frgtpswrd {
-      /* margin: 35% 0% 35% 60%; */
+       margin: 35% 0% 35% 60%; 
       position: relative;
       left: 52% !important;
       color: black;
@@ -53,4 +55,19 @@ span#logintxt{
   font-size: 15px;
   font-weight: bolder;
   color: black;
+}
+*/
+
+#bg{
+    display: none;
+}
+#workimg{
+    display:none;
+}
+#connectlogo{
+    display: none;
+}
+#container{
+    height: fit-content;
+    width: fit-content;
 }
