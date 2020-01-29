@@ -71,7 +71,7 @@ span#logintxt{
 #container{
     height: 100vh !important;
     width: 100vw !important;
-    background-image: url(./images/BG.jpg);
+    background-color: rgb(131, 198, 243) !important;
     margin-top: -12% !important;
     margin-left: -1% !important;
     border-radius: 0 !important;
