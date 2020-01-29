@@ -38,17 +38,19 @@
       /* margin: 35% 0% 35% 60%; */
       position: relative;
       left: 52% !important;
+      color: black;
   }
 .container.span.text{
   font-family: cursive;
-  color: rgb(4, 41, 56);
+  color: rgb(0, 0, 0);
   font-size: 15px !important;
   font-weight: bolder;
 }
-#logintxt{
+span#logintxt{
   display: block;
   position: absolute;
-  margin: -4% 15% 55% 15%;
+  margin: 3% 0% 0% 10%; ;
   font-size: 15px;
   font-weight: bolder;
+  color: black;
 }
