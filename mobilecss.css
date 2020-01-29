@@ -1,5 +1,4 @@
 /* @media screen and (max-width:400px){ }*/
-<<<<<<< HEAD
 #bg{
     display:none ;
   }
@@ -45,53 +44,4 @@
   margin: -4% 15% 55% 15%;
   font-size: 15px;
   font-weight: bolder;
-=======
-    #bg{
-        display: none;
-    }
-    #workimg{
-        display: none;
-    }
-    #connectlogo{
-        display: none;
-    }
-    #logo{
-        display: none;
-    }
-    #mobilelogo{
-        height: 101px;
-        margin-left: 90px;
-        margin-top: 25px;
-    }
-    #pagecont{
-    position: relative;
-    top: 25px !important;
-    margin: 0px;
-    }
-    #container  {
-        height: 100% !important;
-        width: 100% !important;
-        margin-left: 0% !important;
-    }
-    #login-btn{
-        margin-left: 96px !important;
-    }
-    #frgtpswrd {
-        /* margin: 35% 0% 35% 60%; */
-        position: relative;
-        left: 52% !important;
-    }
-.container.span.text{
-    font-family: cursive;
-    color: rgb(4, 41, 56);
-    font-size: 15px !important;
-    font-weight: bolder;
-}
-#logintxt{
-    display: block;
-    position: absolute;
-    margin: -4% 15% 55% 15%;
-    font-size: 15px;
-    font-weight: bolder;
->>>>>>> 464f119f80d4577c5167cf1bf59d62917c5c6d4b
 }
