@@ -1,92 +1,47 @@
 /* @media screen and (max-width:400px){ }*/
-    #bg{
-        display: true;
-    }
-    #workimg{
-        display: none;
-    }
-    #connectlogo{
-        display: none;
-    }
-    body ,#container{
-        max-width: 100% !important;
-        flex: 100%;
-        padding: 0%;
-        background-image: url(../images/Mobile_bg.svg);
-        background-color: none;
-        background-repeat: no-repeat;
-    }
-    #logo {
-        background-color: White;
-        position: relative;
-        margin: 0% 5% 5% 20%;
-        height: 135px;
-        width: 250px;
-    }
-    #logintxt {
-        display: block;
-        position: relative;
-        margin: auto;
-        font-size: 20px;
-        font-weight: bolder;
-    }
-    .container.span.text{
-        font-family: cursive;
-        color: rgb(8, 30, 39);
-        font-size: 20px;
-        font-weight: bolder;
-    }
-     .loginclass {
-            position: absolute;
-            margin: 8% 5% 35% 5%;
-            align-items: center;
-    }
-    .inputcls{
-        font-size: 22px;
-        border-radius: 15px;
-        border-color: rgb(4,171,236);
-        padding: 25px 25px 15px 35px;
-        margin:2%;
-    }
-    #remember {
-        color: rgb(0, 0, 0);
-        position: relative;
-        left: 15px;
-        font-size: 20px
-    }
-    #username {
-        position: absolute;
-        top: 2%;
-        left: 15%;
-        color: rgb(0, 150, 255);
-        font-size: 20px;
-    }
-    #password {
-            position: absolute;
-            top: 28%;
-            left: 15%;
-            color: rgb(0, 150, 255);
-            font-size: 20px;
-     }   
-     #frgtpswrd {
-        margin: 35% 0% 35% 55%;
-        position: relative;
-        left: 5%;
-        font-size: 15px;
-    }
-
-    .btn.btn.primary{
-    color: #000;
-    position: relative;
-    left: 25px;
-    margin-top: 3%;
-    margin: 1%;
-    font-size: 15px;
-    background-color: rgb(248, 248, 248);
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: rgb(3, 93, 129);
-    padding: 5% 15%;
-    font-weight: bold;
-    }
+#bg{
+    display:none ;
+  }
+  #workimg{
+      display: none;
+  }
+  #connectlogo{
+      display: none;
+  }
+  #logo{
+      display: none;
+  }
+  #mobilelogo{
+      display: block;
+  }
+  #pagecont{
+  position: relative;
+  top: 25px !important;
+  margin: 0px;
+  }
+  #container  {
+      height: 100% !important;
+      width: 100% !important;
+      margin-left: 0% !important;
+  }
+  #login-btn{
+      margin-left: 96px !important;
+  }
+  #frgtpswrd {
+      /* margin: 35% 0% 35% 60%; */
+      position: relative;
+      left: 52% !important;
+  }
+.container.span.text{
+  font-family: cursive;
+  color: rgb(4, 41, 56);
+  font-size: 15px !important;
+  font-weight: bolder;
+}
+#logintxt{
+  display: block;
+  position: absolute;
+  margin: -4% 15% 55% 15%;
+  font-size: 15px;
+  font-weight: bolder;
+}
