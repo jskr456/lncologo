@@ -55,10 +55,10 @@ span#logintxt{
   font-size: 15px;
   font-weight: bolder;
   color: black;
-}
-*/
+}*/
 
-#bg{
+
+ #bg{
     display: none;
 }
 #workimg{
@@ -68,6 +68,23 @@ span#logintxt{
     display: none;
 }
 #container{
-    height: fit-content;
-    width: fit-content;
+    height: 100vh !important;
+    width: 100vw !important;
+    background-image: url(./images/BG.jpg);
+    margin-top: -12% !important;
+    margin-right: 18%;
+} 
+
+.container.span.text{
+    color: rgb(0, 0, 0) !important;
+}
+#remember{
+    color: black !important;
+}
+#username{
+    font-weight: 700 !important;
+}
+#password{
+    top:31% !important;
+    font-weight:700; 
 }
