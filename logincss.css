@@ -43,8 +43,13 @@ body {
     height: 135px;
     width: 250px;
 }
+<<<<<<< HEAD
 #mobilelogo{
 	display: none;
+=======
+#mob-log{
+    display: none !important;
+>>>>>>> 464f119f80d4577c5167cf1bf59d62917c5c6d4b
 }
 .loginclass{
     position: absolute;
