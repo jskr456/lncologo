@@ -67,14 +67,18 @@ span#logintxt{
 #connectlogo{
     display: none;
 }
+
 #container{
     height: 100vh !important;
     width: 100vw !important;
     background-image: url(./images/BG.jpg);
     margin-top: -12% !important;
-    margin-right: 18%;
+    margin-left: -1% !important;
+    border-radius: 0 !important;
 } 
-
+#logo{
+    margin-top:20% !important;
+}
 .container.span.text{
     color: rgb(0, 0, 0) !important;
 }
@@ -87,4 +91,11 @@ span#logintxt{
 #password{
     top:31% !important;
     font-weight:700; 
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+#pagecont{
+    position:absolute !important;
+    top:45px !important;
+    margin : 0px !important;
 }
