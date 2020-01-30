@@ -105,3 +105,7 @@ div#logintxt.container.span.text.loginclass{
 .loginclass{
     margin: 21% 65% 35% 13% !important;
 }
+button#login-btn.btn.btn-primary{
+    left: 25%;
+    padding: 5px 35px 5px 30px;
+}
