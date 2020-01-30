@@ -118,6 +118,8 @@ input{
 }
 #logintxt{
     display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
     position: absolute;
     margin: -15% 15% 4% 0%;
     font-size: 14px;
