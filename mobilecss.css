@@ -73,7 +73,7 @@ span#logintxt{
     width: 100vw !important;
     background-color: rgb(131, 198, 243) !important;
     margin-top: -12% !important;
-    margin-left: -1% !important;
+    margin-left: 0% !important;
     border-radius: 0 !important;
 } 
 #logo{
@@ -118,8 +118,14 @@ div#login.loginclass {
 img#logo{
     margin-left: 13% !important;
 }
-div#container{
+#container{
     margin-top: -14% !important;
     margin-left: 0% !important;
 }
+}
+
+@media screen and(max-width: 375px){
+    #container{
+        margin-left: 0% !important;
+    }
 }
