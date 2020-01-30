@@ -102,12 +102,11 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 div#logintxt.container.span.text.loginclass{
     margin: -15% 15% 4% 3% !important;
     font-size: 3vw !important;
-    overflow: unset !important;
 }
 .loginclass{
     margin: 21% 65% 35% 13% !important;
 }
 button#login-btn.btn.btn-primary{
-    left: 33%;
-    padding: 5px 35px 5px 30px;
+    margin-left: 27% !important;
+    padding: 5px 35px 5px 30px !important;
 }
