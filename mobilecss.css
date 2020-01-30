@@ -115,3 +115,11 @@ button#login-btn.btn.btn-primary{
 div#login.loginclass {
     margin: 21% 65% 35% 3% !important;
 }
+img#logo{
+    margin-left: 13% !important;
+}
+div#container{
+    margin-top: -14% !important;
+    margin-left: 0% !important;
+}
+}
