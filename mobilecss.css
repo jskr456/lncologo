@@ -101,6 +101,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 div#logintxt.container.span.text.loginclass{
     margin: -15% 15% 4% 6% !important;
+    font-size: 11px !important;
 }
 .loginclass{
     margin: 21% 65% 35% 13% !important;
