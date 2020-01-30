@@ -99,6 +99,6 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     top:45px !important;
     margin : 0px !important;
 }
-span#logintxt.container.span.text{
-    margin: 1% 15% 4% 0% !important;
+div#logintxt.container.span.text.loginclass{
+    margin: -15% 15% 4% 0% !important;
 }

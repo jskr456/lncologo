@@ -119,7 +119,7 @@ input{
 #logintxt{
     display: inline-block;
     position: absolute;
-    margin: 1% 15% 4% 10%;
+    margin: -15% 15% 4% 0%;
     font-size: 14px;
     font-weight: bolder;
 
