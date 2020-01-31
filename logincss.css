@@ -138,25 +138,11 @@ button#login-btn.btn.btn-primary{
     margin-left: 30%;
 }
 
-/* @media only screen and (max-width:1377px){
-    body{
-        
+@media screen and (max-width:1366px){
+    img#connectlogo{
+        margin:35px 0px 5px 15px;
     }
     #pagecont{
-        top: 2px;
+        top : 0px;
     }
-} */
-
-/* @media  screen and (max-width: 1366px){
-    body{
-    overflow: hidden;
-    }
-    } */
-
-/* @media  screen and (max-width: 1366px){
-    .lftimg{
-    position: absolute;
-	margin: 5% 30% 15% 5%;
-	height: 850px;
-	width: 800px;
-    } */
+}
