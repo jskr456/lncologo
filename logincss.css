@@ -139,10 +139,14 @@ button#login-btn.btn.btn-primary{
 }
 
 @media screen and (max-width:1366px){
+   body
     img#connectlogo{
         margin:35px 0px 5px 15px;
     }
     #pagecont{
         top : 0px;
     }
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
 }
